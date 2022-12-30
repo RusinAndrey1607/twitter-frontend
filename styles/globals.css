@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.profileForm{
+    max-width: 600px;
+    max-height: 650px;
+}
+.close:before,
+.close:after {
+    left:6px;
+    top: 50%;
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+}
+
+.close:before {
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.close:after {
+    transform: translateY(-50%) rotate(-45deg);
+}
+.tweetImage {
+    max-height: 510px;
+}
